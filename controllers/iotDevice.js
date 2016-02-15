@@ -1,16 +1,16 @@
 'use strict';
 
-var IndexModel = require('../models/index');
+var IotDeviceModel = require('../models/iotDevice');
 
 
 module.exports = function (router) {
 
-    var model = new IndexModel();
+    var model = new IotDeviceModel();
 
     router.get('/', function (req, res) {
         
         
-        res.render('index', model);
+        res.render('iotDevice', model);
         
         
     });

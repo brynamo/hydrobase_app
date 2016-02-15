@@ -1,6 +1,4 @@
 {
-
-    
     "express": {
         "view cache": false,
         "view engine": "js",
@@ -28,8 +26,11 @@
     
         ]
     },
-    
 
+    "databaseConfig": {
+        "host": "localhost",
+        "database": "iotTest"
+    },
     
     "i18n": {
         "contentPath": "path:./locales",

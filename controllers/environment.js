@@ -1,16 +1,16 @@
 'use strict';
 
-var IndexModel = require('../models/index');
+var EnvironmentModel = require('../models/environment');
 
 
 module.exports = function (router) {
 
-    var model = new IndexModel();
+    var model = new EnvironmentModel();
 
     router.get('/', function (req, res) {
         
         
-        res.render('index', model);
+        res.render('environment', model);
         
         
     });

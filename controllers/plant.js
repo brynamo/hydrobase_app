@@ -1,16 +1,16 @@
 'use strict';
 
-var IndexModel = require('../models/index');
+var PlantModel = require('../models/plant');
 
 
 module.exports = function (router) {
 
-    var model = new IndexModel();
+    var model = new PlantModel();
 
     router.get('/', function (req, res) {
         
         
-        res.render('index', model);
+        res.render('plant', model);
         
         
     });

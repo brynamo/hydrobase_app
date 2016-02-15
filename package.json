@@ -18,7 +18,9 @@
     "eslint": "^1.10.3",
     "express": "^4.12.2",
     "kraken-js": "^1.0.3",
-    "makara": "^2.0.3"
+    "makara": "^2.0.3",
+    "kerberos": "0.0.18",
+    "mongoose": "^4.4.2"
   },
   "devDependencies": {
     "grunt": "^0.4.5",
@@ -33,6 +35,7 @@
     "grunt-makara-browserify": "^1.0.1",
     "grunt-mocha-cli": "^1.14.0",
     "mocha": "^1.18.0",
+    "nodemon": "^1.8.1",
     "supertest": "^0.9.0"
   }
 }
